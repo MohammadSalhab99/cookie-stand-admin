@@ -13,10 +13,10 @@ const TableHandler = (e)=> {
  setStored(values) 
 }
   return (
-<div>
+<div className = "py-10">
 
    
-    <div className="flex h-90 w-4/5  p-2 mx-auto bg-cyan-200">
+    <div className="flex h-90 w-4/5  p-2 mx-auto bg-cyan-200 rounded-lg ">
     <form onSubmit={TableHandler}>
     <h3 className="text-4xl text-black pl-200 text-left md:text-center" >Cookie Stand Admin</h3>
         <label className="content-center mx-7">Location</label>
@@ -30,7 +30,7 @@ const TableHandler = (e)=> {
                 <input name = "MaxCustomer"type="number" id="email" className="w-4/5 m-2 " />
             </div>
             <div className='bg-cyan-200 rounded-lg'>
-                <label >Minimum Customers per Hour</label>
+                <label >Maximum Customers per Hour</label>
                 <input name= "MinCustomer"type="number" id="telnum" className="w-4/5 m-2 " />
             </div>
             <div className='bg-cyan-200 rounded-lg'>
