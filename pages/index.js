@@ -1,21 +1,12 @@
-import Head from  "./components/Head"
-import Header from "./components/Header"
-import Main from "./components/Main"
-import Footer from "./components/Footer"
+import CookieStandAdmin from  "./components/CookieStandAdmin"
+
 
 
 function Home(){
   return(
     
     <>
-    <Head/>
-    <Header/>
-    <Main/>
-    <br></br>
-    <br></br>
-    <Footer/>
-
-
+    <CookieStandAdmin/>
     </>
   )
 }
